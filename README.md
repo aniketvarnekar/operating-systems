@@ -96,10 +96,6 @@ The course follows the natural shape of the field: every operating system topic 
 | | **— Wrap-up —** | | |
 | 24 | [Interview Preparation](24-interview-preparation/) | ✅ Complete | Consolidated, ranked interview questions and mock scenarios across all modules |
 
-## Companion References (grow with every module)
-
-- **[interview-questions.md](interview-questions.md)** — consolidated interview Q&A across all modules
-
 ## How to read this course
 
 1. Go in order. Modules build on each other — Module 08 (Paging) assumes Module 06 (Address Spaces); Module 15 (Concurrency Bugs) assumes Modules 12–14.
