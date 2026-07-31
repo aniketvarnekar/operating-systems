@@ -61,13 +61,13 @@ Every one of these abstractions is a lie the OS tells your program, for its own 
 At the highest level, the OS is just another program — but one running with a special hardware privilege level that ordinary programs don't have, letting it do things ordinary programs are forbidden from doing directly (like deciding which process's instructions the CPU executes next). Topic 6 (System Calls) explains exactly how a normal program crosses into this privileged territory when it needs the OS's help, and why that crossing is enforced by the CPU hardware itself, not just a polite convention.
 
 ```
- ┌─────────────────────────────────────────────┐
- │   User Programs (browser, editor, your app)  │   ← run with restricted privilege
- ├─────────────────────────────────────────────┤
- │         Operating System (the kernel)         │   ← runs with full hardware privilege
- ├─────────────────────────────────────────────┤
- │     Physical Hardware (CPU, RAM, Disk, ...)   │
- └─────────────────────────────────────────────┘
+┌─────────────────────────────────────────────┐
+│   User Programs (browser, editor, your app) │   ← run with restricted privilege
+├─────────────────────────────────────────────┤
+│      Operating System (the kernel)          │   ← runs with full hardware privilege
+├─────────────────────────────────────────────┤
+│   Physical Hardware (CPU, RAM, Disk, ...)   │
+└─────────────────────────────────────────────┘
 ```
 
 ## Real-World Analogy
